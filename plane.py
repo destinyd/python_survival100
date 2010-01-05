@@ -49,5 +49,5 @@ class Plane(pygame.sprite.Sprite):
           self.direction += 8
 
   def hit(self,target):
-    hitbox = self.rect.inflate(-20,-20)
+    hitbox = self.rect.inflate(-30,-30)
     return hitbox.colliderect(target.rect)

@@ -1,7 +1,7 @@
-from game_engine import *
+from survival100 import *
 
 def main():
-  game = GameEngine()
+  game = Survival100()
   game.run()
 
 if __name__ == '__main__':
